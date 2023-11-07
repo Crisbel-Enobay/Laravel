@@ -17,5 +17,5 @@ use Illuminate\Support\Facades\Route;
 //     return view('product.index');
 // });
 Route::get('/', [\App\Http\Controllers\ProductController::class, 'index']);
-Route::get('/product/{product}', [\App\Http\Controllers\ProductController::class, 'show']);
+Route::get('/products/{product}', [\App\Http\Controllers\ProductController::class, 'show']);
 Route::post('/orders', [\App\Http\Controllers\OrderController::class, 'store']);
