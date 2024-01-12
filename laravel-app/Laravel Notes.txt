@@ -29,7 +29,19 @@ npm -v
 npm install
 npm run dev
 
-// php artisan storage:link
+// storage link for pictures 
+php artisan storage:link
 
+// Bootstrap link
 <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+
+// create views
+php artisan make:view {name}
+
+// create model, composer and migration/database
+php artisan make:model Product -cm
+
+// upload database to localhost
+php artisan migrate
+
