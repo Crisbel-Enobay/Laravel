@@ -25,6 +25,12 @@ node -v
 # for npm
 npm -v
 
+# for php
+php -v 
+
+# for composer
+composer -v
+
 // run bootstrap
 npm install
 npm run dev
@@ -45,3 +51,6 @@ php artisan make:model Product -cm
 // upload database to localhost
 php artisan migrate
 
+
+// laravel installation tutorial
+https://www.bing.com/videos/riverview/relatedvideo?&q=laravel+installation&&mid=5CA318165401DC1430665CA318165401DC143066&&FORM=VRDGAR
